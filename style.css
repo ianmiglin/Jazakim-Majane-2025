@@ -26,6 +26,8 @@ body{
 }
 .contHeader img{
     width: 50%;
+    user-select: none;
+    
 }
 .contenedorBus{
     transform: scale(0.6);
@@ -155,38 +157,14 @@ body{
 
 
 
-@media screen and (max-width: 500px) {
-    .cuentaRegresiva{
-        position: relative;
-        left: -4%;
-    }
-    .btnMicro{
-        margin: 0;
-        font-size: 2rem;
-    }
-    .contenedorBus{
-        transform: scale(0.6);
-    }
-    .contenedorBusFather{
-        width: 100vw !important;
-        height: 60vh !important;
-        box-sizing: border-box;
-        overflow: hidden;
-        position: absolute;
-        bottom: 0;
-    }
-
-    .contHeader img {
-        width: 90% !important;
-    }
-}
 @media screen and (max-width: 768px) {
     .btnMicro{
         margin: 0;
         font-size: 2rem;
     }
     .cuentaRegresiva{
-        transform: scale(0.4);
+        margin-top: 4rem;
+        transform: scale(0.6);
         width: 100%;
         
     }
@@ -207,6 +185,34 @@ body{
     }
 }
 
+@media screen and (max-width: 500px) {
+    .cuentaRegresiva{
+        position: relative;
+        margin-top: 5rem;
+        left: -3%;
+        transform: scale(0.6);
+    }
+    
+    .btnMicro{
+        margin: 0;
+        font-size: 2rem;
+    }
+    .contenedorBus{
+        transform: scale(0.6);
+    }
+    .contenedorBusFather{
+        width: 100vw !important;
+        height: 60vh !important;
+        box-sizing: border-box;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .contHeader img {
+        width: 90% !important;
+    }
+}
 @keyframes nombres-bounce {
     0% {
       top: 250px;

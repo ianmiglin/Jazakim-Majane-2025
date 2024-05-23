@@ -108,15 +108,14 @@ body{
 	height: 25px;
 	text-align: center;
 	position: absolute;
-	bottom: -8px;
+	bottom: 0px;
 	z-index: 9;
 }
 
 #countdown .labels li{
 	width: 102px;
 	font: bold 15px 'Droid Sans', Arial, sans-serif;
-	color: #000000;
-	text-shadow: 1px 1px 0px #fcfcfc;
+	color: #ffffff;
 	text-align: center;
 	text-transform: uppercase;
 	display: inline-block;

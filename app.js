@@ -45,7 +45,7 @@ function pad(n) {
 
 //fin countdown
 const anotados = [
-    {nombre: "Magui", img:"src/img/Magui.png"},
+    {nombre: "Magui", img:"src/LeitzaGrupal.png"},
     {nombre: "-", img:"src/LeitzaGrupal.png"},
     {nombre: "-", img:"src/LeitzaGrupal.png"},
     {nombre: "-", img:"src/LeitzaGrupal.png"},

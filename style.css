@@ -113,7 +113,7 @@ body{
     justify-content: center;
     box-sizing: border-box;
     overflow: hidden;
-    min-height: 10rem;
+    height: 3rem;
 }
 
 /* General styling for the grid container */

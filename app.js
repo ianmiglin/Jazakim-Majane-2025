@@ -61,6 +61,10 @@ const anotados = [
     {nombre: "-", img:"src/LeitzaGrupal.png"},
     {nombre: "-", img:"src/LeitzaGrupal.png"},
     {nombre: "-", img:"src/LeitzaGrupal.png"},
+    {nombre: "-", img:"src/LeitzaGrupal.png"},
+    {nombre: "-", img:"src/LeitzaGrupal.png"},
+    {nombre: "-", img:"src/LeitzaGrupal.png"},
+    {nombre: "-", img:"src/LeitzaGrupal.png"},
     
 ];
 anotados.forEach(function(element) {

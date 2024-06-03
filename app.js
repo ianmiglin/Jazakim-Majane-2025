@@ -46,11 +46,11 @@ function pad(n) {
 //fin countdown
 const anotados = [
     {nombre: "Magui", img:"src/LeitzaGrupal.png"},
-    {nombre: "-", img:"src/LeitzaGrupal.png"},
-    {nombre: "-", img:"src/LeitzaGrupal.png"},
-    {nombre: "-", img:"src/LeitzaGrupal.png"},
-    {nombre: "-", img:"src/LeitzaGrupal.png"},
-    {nombre: "-", img:"src/LeitzaGrupal.png"},
+    {nombre: "Thiago", img:"src/LeitzaGrupal.png"},
+    {nombre: "Tati", img:"src/LeitzaGrupal.png"},
+    {nombre: "Valen", img:"src/LeitzaGrupal.png"},
+    {nombre: "Juli B.", img:"src/LeitzaGrupal.png"},
+    {nombre: "Perla", img:"src/LeitzaGrupal.png"},
     {nombre: "-", img:"src/LeitzaGrupal.png"},
     {nombre: "-", img:"src/LeitzaGrupal.png"},
     {nombre: "-", img:"src/LeitzaGrupal.png"},

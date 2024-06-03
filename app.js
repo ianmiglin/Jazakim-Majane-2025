@@ -78,7 +78,7 @@ anotados.forEach(function(element) {
             <h3>${element.nombre}</h3>
         </div>`;
 });
-document.getElementById("nroNombres").innerText = anotados.filter(e=>e.nombre!="-").length;
+document.getElementById("nroNombres").innerText = anotados.filter(e=>e.nombre!="-").length -2;
 
 document.getElementById("btnMicro").addEventListener("click", function(){
     const micro = document.querySelector(".contMicro")

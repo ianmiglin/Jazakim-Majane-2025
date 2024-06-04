@@ -64,7 +64,7 @@ const anotados = [
     {nombre: "Ela", img:"src/LeitzaGrupal.png"},
     {nombre: "Sofi G.", img:"src/LeitzaGrupal.png"},
     {nombre: "Ilu", img:"src/LeitzaGrupal.png"},
-    {nombre: "-", img:"src/LeitzaGrupal.png"},
+    {nombre: "Ori", img:"src/LeitzaGrupal.png"},
     {nombre: "-", img:"src/LeitzaGrupal.png"},
     {nombre: "-", img:"src/LeitzaGrupal.png"},
     {nombre: "-", img:"src/LeitzaGrupal.png"},

@@ -28,7 +28,7 @@ function getCountdown(){
 	minutes = pad( parseInt(seconds_left / 60) );
 	seconds = pad( parseInt( seconds_left % 60 ) );
     if (target_date <= new Date()) {
-        days = "00";
+        days = "20";
         hours = "00";
         minutes = "00";
         seconds = "00";
@@ -45,7 +45,7 @@ function pad(n) {
 
 //fin countdown
 const anotados = [
-    {nombre: "Dylan", img:"src/LeitzaGrupal.png"},
+    {nombre: "Ian", img:"src/LeitzaGrupal.png"},
     {nombre: "Miju", img:"src/LeitzaGrupal.png"},
     {nombre: "Magui", img:"src/LeitzaGrupal.png"},
     {nombre: "Thiago", img:"src/LeitzaGrupal.png"},
@@ -69,7 +69,6 @@ const anotados = [
     {nombre: "Adri", img:"src/LeitzaGrupal.png"},
     {nombre: "Juli J.", img:"src/LeitzaGrupal.png"},
     {nombre: "Toby", img:"src/LeitzaGrupal.png"},
-    {nombre: "Leon", img:"src/LeitzaGrupal.png"},
     
 ];
 anotados.forEach(function(element) {

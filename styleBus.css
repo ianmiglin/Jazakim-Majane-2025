@@ -14,7 +14,7 @@ body {
   .road {
     width: 120%;
     height: 2px;
-    background-color: #fa2186;
+    background-color: #a210f7;
     top: 370px;
     left: 00px;
     margin: 0;
@@ -31,10 +31,10 @@ body {
   }
   
   .dashboard {
-    background-color: #05B4FF;
+    background-color: #b305aa;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    border: 2px solid #fa2186;
+    border: 2px solid #ff0000;
     height: 95px;
     width: 80px;
     top: 45px;
@@ -46,10 +46,10 @@ body {
   }
   
   .cabin {
-    background-color: #05B4FF;
+    background-color: #b305aa;
     border-top-right-radius: 20px;
     border-top-left-radius: 30px;
-    border: 2px solid #fa2186;
+    border: 2px solid #ff0000;
     border-bottom: 0;
     height: 95px;
     width: 410px;
@@ -66,8 +66,8 @@ body {
     height: 60px;
     top: 140px;
     border-top-left-radius: 30px;
-    background-color: #05B4FF;
-    border: 2px solid #fa2186;
+    background-color: #b305aa;
+    border: 2px solid #ff0000;
     z-index: 3;
   }
   
@@ -78,8 +78,8 @@ body {
     height: 30px;
     top: 200px;
     right: 0;
-    background-color: #008fcd;
-    border: 2px solid #fa2186;
+    background-color: #b305aa;
+    border: 2px solid #ff0000;
     z-index: 3;
   }
   
@@ -89,10 +89,10 @@ body {
     height: 65px;
     top: 140px;
     right: 0;
-    border: 2px solid #fa2186;
+    border: 2px solid #ff0000;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 2px;
-    background-color: #05B4FF;
+    background-color: #b305aa;
     z-index: 2;
   }
   
@@ -102,9 +102,9 @@ body {
     height: 20px;
     top: 205px;
     left: 0px;
-    border: 2px solid #fa2186;
+    border: 2px solid #ff0000;
     border-top-right-radius: 18px;
-    background-color: #05B4FF;
+    background-color: #b305aa;
     z-index: 1;
   }
   
@@ -116,8 +116,8 @@ body {
     top: 195px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    background-color: #05B4FF;
-    border: 2px solid #fa2186;
+    background-color: #b305aa;
+    border: 2px solid #ff0000;
     z-index: 4;
   }
   
@@ -129,8 +129,8 @@ body {
     top: 192px;
     border-top-left-radius: 80px;
     border-top-right-radius: 80px;
-    background-color: #05B4FF;
-    border: 2px solid #fa2186;
+    background-color: #b305aa;
+    border: 2px solid #ff0000;
     z-index: 4;
   }
   
@@ -139,13 +139,13 @@ body {
     width: 60px;
     display: block;
     border-radius: 100px;
-    border: 2px solid #fa2186;
+    border: 2px solid #ff0000;
     position: absolute;
     top: 200px;
   }
   
   .right-wheel, .wheel-right-front, .wheel-right-rear {
-    background-color: #fa2186;
+    background-color: #ff0000;
     z-index: 0;
   }
   
@@ -178,7 +178,7 @@ body {
     height: 20px;
     top: 215px;
     left: -10px;
-    border: 2px solid #fa2186;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     background-color: #25294a;
     z-index: 10;
@@ -189,10 +189,10 @@ body {
     height: 30px;
     width: 30px;
     display: inline-block;
-    background-color: #fa2186;
+    background-color: #ff0000;
     border-radius: 100px;
     position: relative;
-    border: 2px solid #fa2186;
+    border: 2px solid #ff0000;
     left: 13px;
     top: 13px;
     z-index: 6;
@@ -214,7 +214,7 @@ body {
     position: relative;
     content: '';
     height: 50px;
-    background-color: #fa2186;
+    background-color: #ff0000;
     width: 2px;
     top: 0px;
     left: 34px;
@@ -225,7 +225,7 @@ body {
   .dashboard-transom {
     height: 25px;
     width: 70px;
-    border: 2px solid #fa2186;
+    border: 2px solid #ff0000;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color: #A8B0E7;
@@ -380,7 +380,7 @@ body {
     background-color: transparent;
     height: 125px;
     width: 15px;
-    border: 2px solid #fa2186;
+    border: 2px solid #ff0000;
     border-bottom: 0;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -391,7 +391,7 @@ body {
     position: absolute;
     top: -171px;
     left: 8px;
-    border: 2px solid #fa2186;
+    border: 2px solid #ff0000;
     border-right: 0;
     border-bottom: 0;
     height: 170px;
@@ -403,7 +403,7 @@ body {
   .lamp-bulb {
     height: 10px;
     width: 50px;
-    background-color: #dfdfdf;
+    background-color: #a900ec;
     position: absolute;
     top: -169px;
     left: 65px;
@@ -412,7 +412,7 @@ body {
   }
   
   .lamp-light {
-    border-bottom: 290px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 290px solid rgba(180, 79, 79, 0.2);
     border-left: 20px solid transparent;
     border-right: 110px solid transparent;
     height: 0;

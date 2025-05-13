@@ -49,8 +49,8 @@ body{
 
 }
 .btnMicro{
-    background: rgb(255,232,110);
-    background: radial-gradient(circle, rgba(255,232,110,1) 0%, rgba(184,153,0,1) 57%);    
+    background: rgb(235, 0, 0);
+    background: radial-gradient(circle,#b305aa, #b305aa);    
     color: white;
     padding: 1rem 2rem;
     transition: all .3s;
@@ -58,10 +58,11 @@ body{
     font-size: 1.5rem;
     border: none;
     cursor: pointer;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: -20px;
+    box-shadow: 10px;
 }
 
 .btnMicro:hover{
@@ -80,7 +81,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #00000085;
-    background-image: url('src/LeitzaGrupal.png');
+    background-image: url('src/Jazakimfondo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -1,6 +1,6 @@
 //Countdown
 
-var target_date = new Date("2024-07-16T08:00:00"); // set the countdown date
+var target_date = new Date("2025-07-21T08:00:00"); // set the countdown date
 var days, hours, minutes, seconds; // variables for time units
 
 var countdown = document.getElementById("tiles"); // get tag element
@@ -28,10 +28,10 @@ function getCountdown(){
 	minutes = pad( parseInt(seconds_left / 60) );
 	seconds = pad( parseInt( seconds_left % 60 ) );
     if (target_date <= new Date()) {
-        days = "20";
-        hours = "00";
-        minutes = "00";
-        seconds = "00";
+        days = "69";
+        hours = "12";
+        minutes = "5";
+        seconds = "20";
     }
 	// format countdown string + set tag value
 	countdown.innerHTML = "<span>" + days + "</span><span>" + hours + "</span><span>" + minutes + "</span><span>" + seconds + "</span>"; 
@@ -45,31 +45,30 @@ function pad(n) {
 
 //fin countdown
 const anotados = [
-    {nombre: "Ian", img:"src/LeitzaGrupal.png"},
-    {nombre: "Miju", img:"src/LeitzaGrupal.png"},
-    {nombre: "Magui", img:"src/LeitzaGrupal.png"},
-    {nombre: "Thiago", img:"src/LeitzaGrupal.png"},
-    {nombre: "Tati", img:"src/LeitzaGrupal.png"},
-    {nombre: "Valen", img:"src/LeitzaGrupal.png"},
-    {nombre: "Juli B.", img:"src/LeitzaGrupal.png"},
-    {nombre: "Perla", img:"src/LeitzaGrupal.png"},
-    {nombre: "Zoe", img:"src/LeitzaGrupal.png"},
-    {nombre: "Maylu", img:"src/LeitzaGrupal.png"},
-    {nombre: "Marto", img:"src/LeitzaGrupal.png"},
-    {nombre: "Vicky", img:"src/LeitzaGrupal.png"},
-    {nombre: "Ionit", img:"src/LeitzaGrupal.png"},
-    {nombre: "Naiu P.", img:"src/LeitzaGrupal.png"},
-    {nombre: "Meli", img:"src/LeitzaGrupal.png"},
-    {nombre: "Natu", img:"src/LeitzaGrupal.png"},
-    {nombre: "Ela", img:"src/LeitzaGrupal.png"},
-    {nombre: "Sofi G.", img:"src/LeitzaGrupal.png"},
-    {nombre: "Ilu", img:"src/LeitzaGrupal.png"},
-    {nombre: "Ori", img:"src/LeitzaGrupal.png"},
-    {nombre: "Dan", img:"src/LeitzaGrupal.png"},
-    {nombre: "Adri", img:"src/LeitzaGrupal.png"},
-    {nombre: "Juli J.", img:"src/LeitzaGrupal.png"},
-    {nombre: "Toby", img:"src/LeitzaGrupal.png"},
-    
+    {nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+    {nombre: "Miju", img:"src/JazakimPersonas2.0.png"},
+   //{nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   //{nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   //{nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   //{nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   //{nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   //{nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   //{nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   // {nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   // {nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   // {nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   // {nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   // {nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   // {nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   // {nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   // {nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   // {nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   // {nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   // {nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   // {nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+   // {nombre: "Ian", img:"src/JazakimPersonas2.0.png"},
+
+   
 ];
 anotados.forEach(function(element) {
         document.getElementById("gridContent").innerHTML += `
